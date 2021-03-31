@@ -2,6 +2,6 @@ bin/
 .settings/
 .svn/
 /logs
-.classpath/
-.project/
+.classpath
+.project
 

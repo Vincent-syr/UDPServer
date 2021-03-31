@@ -1,6 +1,6 @@
 ## master-slave架构
 
-! [image](https://github.com/Vincent-syr/UDPServer/blob/main/image/master-slave.png)
+![image](https://github.com/Vincent-syr/UDPServer/blob/main/image/master-slave.png)
 
 - master采用轮训的方式分配slave
 - master和slave之间保持心跳和数据同步

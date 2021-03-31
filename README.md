@@ -1,8 +1,27 @@
-![image-20210330105247448](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20210330105247448.png)
+## master-slave架构
+
+! [image](https://github.com/Vincent-syr/UDPServer/blob/main/image/master-slave.png)
+
+- master采用轮训的方式分配slave
+- master和slave之间保持心跳和数据同步
 
 
 
-![image-20210330105147416](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20210330105147416.png)
+
+
+## 收包发包模型
+
+![image](https://github.com/Vincent-syr/UDPServer/blob/main/image/send-receive.png)
+
+- 一个receive线程
+- 多个worker线程
+- 一个send线程
+
+
+
+
+
+
 
 
 
